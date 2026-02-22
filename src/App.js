@@ -127,7 +127,7 @@ const App = () => {
             <div className="nav-content">
               <div className="nav-logo">
                 <Link to="/" className="logo-link">
-                  <img src="/guardiancare_logo.svg" alt="GuardianCare Logo" style={{ height: '40px', marginRight: '8px' }} />
+                  <img src={`${process.env.PUBLIC_URL}/guardiancare_logo.svg`} alt="GuardianCare Logo" style={{ height: '40px', marginRight: '8px' }} />
                   <span className="logo-text">GuardianCare</span>
                 </Link>
               </div>
@@ -486,7 +486,7 @@ const App = () => {
                       {/* Company Info */}
                       <div className="footer-brand">
                         <h3 className="footer-logo">
-                          <img src="/guardiancare_logo.png" alt="GuardianCare Logo" style={{ height: '30px', marginRight: '8px' }} />
+                          <img src={`${process.env.PUBLIC_URL}/guardiancare_logo.png`} alt="GuardianCare Logo" style={{ height: '30px', marginRight: '8px' }} />
                           GuardianCare
                         </h3>
                         <p className="footer-tagline">
