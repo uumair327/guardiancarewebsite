@@ -2,7 +2,7 @@
   "name": "guardiancare",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://umairansari.in",
+  "homepage": "https://umairansari.in/guardiancarewebsite",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.14.1",

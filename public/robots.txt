@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://guardiancare.childrenofindia.in/sitemap.xml
+Sitemap: https://umairansari.in/guardiancarewebsite/sitemap.xml

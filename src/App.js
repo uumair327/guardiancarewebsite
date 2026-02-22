@@ -119,14 +119,17 @@ const App = () => {
   ];
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app-wrapper">
         {/* Navbar */}
         <nav className="navbar">
           <div className="container-width">
             <div className="nav-content">
               <div className="nav-logo">
-                <Link to="/" className="logo-link">GuardianCare</Link>
+                <Link to="/" className="logo-link">
+                  <img src="/guardiancare_logo.svg" alt="GuardianCare Logo" style={{ height: '40px', marginRight: '8px' }} />
+                  <span className="logo-text">GuardianCare</span>
+                </Link>
               </div>
 
               {/* Desktop Navigation */}
@@ -231,10 +234,10 @@ const App = () => {
                               {/* Animated Header */}
                               <div className="flutter-header">
                                 <div className="system-status-bar flutter-status-bar">
-                                  <span className="status-time">4:20</span>
+                                  <span className="status-time">3:27</span>
                                   <div className="status-icons">
-                                    <span className="status-signal">4G</span>
-                                    <span className="status-battery">48%</span>
+                                    <span className="status-signal">5G</span>
+                                    <span className="status-battery">70%</span>
                                   </div>
                                 </div>
                                 <div className="flutter-header-content">
@@ -482,7 +485,10 @@ const App = () => {
                     <div className="footer-grid">
                       {/* Company Info */}
                       <div className="footer-brand">
-                        <h3 className="footer-logo">GuardianCare</h3>
+                        <h3 className="footer-logo">
+                          <img src="/guardiancare_logo.png" alt="GuardianCare Logo" style={{ height: '30px', marginRight: '8px' }} />
+                          GuardianCare
+                        </h3>
                         <p className="footer-tagline">
                           Protecting and empowering the next generation.
                         </p>

@@ -212,13 +212,18 @@ body {
 }
 
 .logo-link {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.logo-text {
   background: linear-gradient(135deg, var(--primary-600), var(--primary-800));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-decoration: none;
 }
 
 .nav-links-desktop {
@@ -1293,6 +1298,8 @@ body {
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
